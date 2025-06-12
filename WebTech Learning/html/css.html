@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Learning</title>
+    <link rel="stylesheet" href="../css/Selectors.css">
+    <link rel="stylesheet" href="../css/color-gradient.css">
+    <style>
+        /* body{
+            background-image: url(./Assests/flower.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        } */
+        *{
+            margin: 0px;
+        }
+
+        :root{
+            --bg:green;
+            --color:blue;
+        }
+        #div1{
+            color: var(--color);
+            background: var(--bg);
+        }
+        .dark{
+            color: white;
+            background-color: blue;
+        }
+
+    </style>
+    <link rel="stylesheet" href="../css/flex-grid.css">
+</head>
+<body>
+<br>
+    <h1>CSS - Cascade Style Sheet</h1>
+    <br>
+   Way to interlink CSS 
+    <ol>
+        <li>Inline Style (Style as an attribute)</li>
+        <li>Internal Style (Style as a tag) </li>
+        <li>External Style (Creating a file with the extension of .css and <br>
+            import it to the html document via link tag)</li>
+    </ol>
+<br>
+
+<div id="selectors">
+<h2>Selectors are used to select or target the html element to style</h2>
+Types of Selectors :
+<br>
+<ol ><li>Simple Selectors
+    <ul type="square">
+    <li>Id name selector</li>
+    <li>Class name selector</li>
+    <li>Tag Name Selectors</li>
+    <li>Grouping Selector</li>
+    <li>Universal Selector</li>
+</ul>
+</li>
+<li>Combinator Selectors
+    <ul type="square">
+    <li>Descendant Selectors (space) - direct and indirect Sibiling</li>
+    <li>Child Selectors > - direct children</li>
+    <li>Adjacent Selectors + - next sibling</li>
+    <li>General Sibiling Selector ~ General sibling</li>
+</ul>
+</li>
+<li>Attribute Selectors</li>
+<li>Pseudo Class Selector</li>
+<li>Pseudo element Selectors
+</li>
+</ol>
+<!-- Anchor pc -->
+ <!-- <a href="../html/basic.html" target="_blank">yekke</a> -->
+<!-- UI pc -->
+ <!-- <button id="btn" title="submit">Click here</button>
+
+ <p><p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> At unde illo sequi id. Maxime eius ducimus voluptatibus provident vitae? Placeat repellat in quibusdam expedita ullam, dolores optio voluptatum deleniti eligendi?</p></p> -->
+</div>
+<div id="float">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dignissimos esse a voluptatum reprehenderit. Reprehenderit, doloremque dolorem laborum iusto fugit earum, blanditiis omnis odit possimus fuga, ut nesciunt quibusdam nostrum.</p>
+    <h1>Hellow World!</h1>
+    <h2>Meet the Creator</h2>
+ </div>
+
+ <div>
+    <input type="submit" id="submit">
+    <button id="btn">Click me</button>
+ </div>
+
+<div id="bg">
+     <div id="ani">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatibus reiciendis eaque maxime libero assumenda cum repellendus expedita quisquam quasi eveniet nam facere adipisci aliquid exercitationem accusamus, reprehenderit itaque dicta?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dicta fugit doloribus delectus placeat in voluptates ipsa repudiandae veritatis id optio vel assumenda dolor esse, unde sit recusandae nam nostrum? Iusto, expedita eligendi quo dicta impedit fugit sint! Eaque eius quaerat dignissimos necessitatibus temporibus laudantium recusandae, tempore sunt neque incidunt fuga laborum deleniti corporis distinctio, alias veritatis molestiae, nihil aliquam fugiat? Veniam praesentium, qui consectetur laborum possimus consequatur? Tenetur blanditiis dignissimos dolor ratione nisi ipsa mollitia distinctio alias id voluptatem laudantium saepe magni dolorum, dolores maiores. Ullam cum excepturi quia distinctio vel? Vel autem deserunt expedita totam vero eum, optio dolore, ab cumque sunt illum accusantium eos laudantium animi mollitia adipisci dolores ipsa? Natus consequatur incidunt voluptatum voluptate optio corrupti! Beatae explicabo saepe reprehenderit! Placeat consequatur voluptas debitis iusto aut. Dignissimos velit fugiat dolorum saepe culpa repellendus, reprehenderit error rem soluta explicabo, sequi dicta. Vel, quod quos minima alias unde accusamus quisquam sequi, eius, debitis repellendus libero eos iure dolorum quibusdam molestias rerum est id. Dolorum molestias dolore rem inventore vero, itaque explicabo, est, consequuntur cumque earum quas pariatur ab vitae in! Hic, temporibus ea! Dolores hic deleniti quo. Deleniti ipsum culpa pariatur? Aspernatur rem unde repellat, asperiores explicabo aliquam inventore, deserunt soluta eum numquam blanditiis possimus dolores non obcaecati sint nulla iste voluptatibus saepe maxime quod aut! Aspernatur impedit, aliquam iusto illo quis fugiat amet dolor, modi eius sunt ipsum eos quibusdam voluptatem vero natus magni reprehenderit autem consequatur perferendis mollitia repudiandae dolorum? Possimus quas rem amet maxime placeat ad officia sunt ex est iusto tenetur soluta, quam quia tempora minima libero provident optio. Nihil facilis quis molestiae nam quod optio, atque vero corporis veritatis eveniet rem ipsum nemo cum consectetur perspiciatis dicta? Rerum dolore vel, libero voluptatibus earum reiciendis repellat ut ducimus illo error, accusantium quo accusamus corporis? </div>
+ <img src="./Assests/flower.jpg" alt="image is loading" style="height: 200px;width: 400px;">
+ <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, mollitia libero Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos, cum, voluptatem odio accusantium omnis temporibus aut explicabo consequuntur ut fuga. Ipsum iste consectetur, asperiores magnam beatae rerum, cum quam, numquam deserunt laudantium ex dolore! Aliquam, porro! Repudiandae eveniet incidunt quasi nemo nisi neque mollitia qui nulla explicabo ex voluptatum voluptas, culpa provident quo fuga. Harum nemo non aspernatur recusandae minus deleniti corrupti facere, facilis vero laboriosam quidem sunt architecto! Sed ipsa vero, hic at asperiores iusto impedit consequuntur nobis facilis? Officiis, natus? Est ipsam aliquam voluptatibus consequuntur architecto veniam atque ducimus amet ratione eius dolore quibusdam temporibus, optio libero eum at! Ratione enim veniam architecto ipsa blanditiis, commodi similique debitis dignissimos vitae voluptates iure corporis minima animi, at quibusdam ut unde sapiente temporibus assumenda veritatis sequi porro dolorum! Dolor illum sit beatae labore, dolore repudiandae praesentium soluta. Sapiente similique dignissimos ullam ducimus voluptas beatae commodi pariatur animi architecto. Porro debitis dolores consequatur ab commodi quidem earum molestias cumque et sit est eveniet dolorum magnam voluptates nihil suscipit tempore minus, veniam impedit. Enim vitae accusantium odit? Asperiores esse natus sapiente, culpa at pariatur quis corrupti! Ratione, quos rem? Aperiam ut minus ratione! Dolore quam distinctio aliquid odit velit minima iusto. excepturi facilis fugiat, vero saepe, totam consequatur accusamus iusto ipsa modi ipsum unde dicta quidem architecto ullam nihil voluptatibus sunt fuga. Eaque ipsum veritatis atque earum, ut doloribus! Labore quam sequi est maxime dolorum debitis consequatur ullam, nulla modi sit harum non, dicta, rem earum hic vel corporis quae? Odio sapiente omnis quia. Illo, nobis suscipit, temporibus praesentium similique et totam quos, eos recusandae mollitia vitae delectus odit natus atque rerum incidunt doloribus officiis adipisci a quibusdam nisi voluptatibus sapiente fuga pariatur. Cum consequuntur distinctio sit atque, nobis illo.</span>
+</div>
+<br>   <br>
+<div id="tran" ></div>
+<br> <hr> <br>
+<div id="tran" ></div> <br>
+<hr> <br> 
+<div id="tran" ></div>
+ <br>
+ <center>------<h1 style="border: 1px solid black; height: auto; width: 100px; background-color: bisque;">Grid</h1>------</center>
+<div id="grid">
+    <div class="child one">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child">5</div>
+    <div class="child">6</div>
+    <div class="child">7</div>
+    <div class="child">8</div>
+    <div class="child">9</div>
+    <div class="child nine">10</div>
+</div>
+<br>
+ <center>------<h1 style="border: 1px solid black; height: auto; width: 100px; background-color: bisque;">Flex</h1>------</center>
+
+
+ <div class="flex">
+    <div class="fx f1">1</div>
+    <div class="fx f2">2</div>
+    <div class="fx f3">3</div>
+    <div class="fx f4">4</div>
+    <div class="fx f5">5</div>
+    <div class="fx f6">6</div>
+    <div class="fx f7">7</div>
+    <div class="fx f8">8</div>
+    <div class="fx f9">9</div>
+    <!-- <div class="fx f0">10</div> -->
+</div>
+<!-- <br>
+ <center>------<h1 style="border: 1px solid black; height: auto; width: 300px; background-color: bisque;">Variables in Css</h1>------</center>
+<br>
+ <div id="div1" >
+    <h1 id="h1">This is my Heading</h1>
+    <p>My Custom Colors</p>
+</div>
+<br> 
+ <center>------<h1 style="border: 1px solid black; height: auto; width: 300px; background-color: bisque;">Color Gradient</h1>------</center>
+<br>
+<div class="box">Linear Gradient</div>
+<div class="rad">Radial Gradient</div> -->
+
+
+
+<div class="main">
+    <div class="sub-1">okdokoko</div>
+    <div class="sub-2">okokokok</div>
+</div>
+</body>
+</html>

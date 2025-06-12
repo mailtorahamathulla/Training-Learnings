@@ -1,0 +1,18 @@
+.box{
+    padding: 25vh 15vh;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    background-image: linear-gradient(to top left, rgb(224, 157, 228) ,rgb(148, 18, 219));
+    float: left;
+    color: aliceblue;
+}
+.rad{
+    color: darkblue;   
+    padding: 175px 100px;
+    margin-left: 655px;
+    margin-bottom: 40px;
+    width: 100px;
+    border: 1px solid black;
+    background-image: radial-gradient(yellow,red);
+}

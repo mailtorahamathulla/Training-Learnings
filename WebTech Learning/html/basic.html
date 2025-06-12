@@ -1,0 +1,158 @@
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Learning</title>
+    <style>
+      table{
+        border: 1px solid black;
+        border-collapse:collapse ;
+        margin: 20px;
+      }
+      td{
+        border: 1px solid black;
+        /* text-align: center; */
+      }
+      video{
+        height: 300px;
+        width: 500px;
+      }
+      nav>a{
+        color: black;
+        text-decoration: none;
+      }
+      img{
+        height: 300px;
+        width: 500px;
+      }
+    </style>
+</head>
+<body>
+  <nav><a href="home"> home</a> <a href="reg">Register</a> <a href="abt">About</a></nav>
+   <article id="html-tags">
+    <!-- A tag is a element which will have some data / information.-->
+     <!-- Types of tag 
+     i.paired tag / container
+     ii.unpaired tag / selfclosing tag / void / empty 
+     -->
+    <p class="para" title="Heading">Heading</p>
+    <!-- Anchor Tag -->
+    <a href="./css.html" target="text">Go to Css</a>
+    <!-- Image -->
+    <!-- <img src="" alt="Pic is loading"> -->
+    <!-- List -->
+     <ol type="A">
+      <li>Kavi</li> 
+      <li>Sasi</li>
+      <li>Rahamath</li>
+     </ol>
+     <ul type="circle">
+      <li>Kavi</li>
+      <li>Sasi</li>
+      <li>Rahamath</li>
+     </ul>
+     <dl>HW</dl>
+     <dd>Hello World</dd>
+     <table>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td colspan="2">C</td>
+      </tr>
+      <tr >
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+      </tr>
+      <tr><td>H</td>
+      <td>
+        I
+      </td>
+    <td colspan="2">J</td></tr>
+     </table>
+   </article>
+   <audio controls>
+    <!-- Autoplay,Muted,Loop -->
+    <source src="./Assests/Thiruchitrambalam Bgm-Downringtone.com.mp3">
+   </audio>
+   hr - horizontal line
+    <hr>
+   <br>
+   br - breakes the line<br> 
+   
+   
+   <b>Video Tag</b> <br>
+   <video controls >
+    <source src="./Assests/SampleVideo_1280x720_1mb.mp4">
+   </video>
+<br>
+<br>
+<img src="./Assests/flower.jpg" alt="Pic is loading">
+<br>
+<br>
+     <b>iFrame Tag :</b>
+    <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/_JsTXpMpG5E?si=H22r4sNBqh4ZsBWH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br> <br>
+    <b>Anna Library location</b>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4622.839577625006!2d80.23852798396597!3d13.014699318335355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526772eb0d4451%3A0xcfc3c35cdd3a47d3!2sAnna%20Centenary%20Library!5e0!3m2!1sen!2sin!4v1748933397222!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br> <br>
+   <form action="">
+    <label for="">Name</label> <input type="text" placeholder="Enter you name">
+    <label for="">Password</label><input type="password">
+    <input type="time">
+    <input type="date">
+    <input type="week">
+    <input type="search">
+    <input type="checkbox">
+    <input type="radio">
+    <input type="email">
+    <input type="file">
+    <input type="image">
+    <input type="range">
+    <input type="month">
+    <input type="submit">
+    <input type="reset">
+
+    <br>
+      </form>
+
+      <code>function.html</code>
+      <kbd>ctrl</kbd>
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+       <h2>Using &lt;code&gt; and &lt;kbd&gt;</h2>
+  <p>To save your work, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+  <p>Here's an inline code snippet: <code>console.log('Hello, world!');</code></p>
+
+  <h2>Using &lt;pre&gt; for code blocks</h2>
+  <pre>
+function greet(name) {
+    return 'Hello, ' + name + '!';
+}
+console.log(greet('Alice'));
+  </pre>
+
+  <h2>Using &lt;samp&gt; for sample output</h2>
+  <p>Program output:</p>
+  <samp>Hello, Alice!</samp>
+<p title="Home Work">HW</p>
+Enter your City
+
+<select name="City" id="">
+  <option value="Chennai">Chennai</option>
+  <option value="Banglore">Bangalore</option>
+  <option value="Trichy">Trichy</option>
+</select>
+Address : <br>
+<br>
+<textarea name="address" id=""></textarea>
+
+<button>Enter</button>
+    </body>
+</html>
